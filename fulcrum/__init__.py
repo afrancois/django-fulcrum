@@ -1,3 +1,3 @@
 #import django
 #django.setup()
-from fulcrum.sites import site
+default_app_config = 'fulcrum.apps.MyAppConfig'
